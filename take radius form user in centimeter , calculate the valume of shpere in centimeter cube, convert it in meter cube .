@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{ 
+//Question no 2 
+// take radius form user in centimeter , calculate the valume of shpere in centimeter cube, convert it in meter cube .
+float radius;
+float vol, pwr;
+float p= 3.142;
+float vol_m3 = 0.00001;
+scanf("%f",&radius);
+printf("Take radius from user in centimeter:");
+printf("%f\n",radius);
+pwr=pow (radius , 3) ;
+vol=(4.0/3.0)*p*pwr;
+printf("Volume of shpere in centimeter-cube : ");
+printf("%f\n",vol);
+//for conversion of centimeter cube  in metercube
+//volume of sphere = vol*0.00001
+vol_m3=vol*0.00001;
+printf("Volume of shpere in meter-cube:",vol_m3);
+printf("%f",vol_m3 );
+ 
+ 
+}
