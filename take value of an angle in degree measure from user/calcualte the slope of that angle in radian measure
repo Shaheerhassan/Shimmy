@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{ 
+//take value of an angle in degree measure from user
+// calcualte the slope of that angle in radian measure 
+float degree;
+printf("Take input from user in angle = ",degree);
+scanf("%f",&degree);
+//now convert it into radian measure
+//rad = deg*pi/100
+float p = 3.142;
+float rad;
+rad = (degree*p)/180;
+printf("Converted into radian measure : %f\n",rad);
+//slope of the angle in radian measure
+float m;
+float angle =3.142;
+m=tan(angle);
+printf("Slope of the angle : %f  \n",m);
+ 
+ 
+}
