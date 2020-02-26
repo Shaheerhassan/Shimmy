@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{
+ 
+//take diameter from user in centimeter 
+//calculate the area of a circle in meter-square(m^2)
+//hint r =d/2  a =pi *r^2
+float dia ; 
+float radius , pwr;
+float area, p=3.421, area_m2;
+printf("Take diameter in centimeter :");
+scanf("%f", &dia);
+radius= dia/2.0;
+pwr=pow (radius, 2.0);
+area =p * pwr;
+area_m2=area*0.0001;
+printf("Area of a circle in meter-square:%f" ,area_m2);
+ 
+ 
+}
